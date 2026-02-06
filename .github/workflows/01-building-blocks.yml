@@ -1,6 +1,6 @@
 # This is a workflow file for the Github Actions Course.
 
-name: 01 - Building Blocks bk
+name: 01 - Building Blocks
 
 on:
   workflow_dispatch:
