@@ -9,9 +9,6 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-
-
     - name: Printing Folders
-      run: |
-        echo "Repository folder structure:"
-        tree -L 3 || ls -R
+      run: ls
+    
